@@ -1,3 +1,4 @@
+import org.junit.Test;
 
 public class Control {
 
@@ -14,8 +15,10 @@ public class Control {
 	}
 
 	private int espaco = 0;
-
+	
+	
 	public void frase() {
+		System.out.println(jabuti.getFrase());
 		String[] frase = jabuti.getFrase().split(" ");
 
 		espaco = jabuti.getColunas();
